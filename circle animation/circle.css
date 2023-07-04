@@ -1,0 +1,56 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main {
+    margin-top: 4%;
+    height: 600px;
+    width: 600px;
+
+}
+
+.first {
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    border-top: 20px solid gold;
+    border-right: 20px solid red;
+    border-bottom: 20px solid yellow;
+    border-left: 20px solid purple;
+    box-shadow: 1px 1px 10px 10px green, inset 1px 1px 10px 10px blue;
+    animation: fcircle 2s linear infinite;
+}
+@keyframes fcircle {
+    0%{
+        transform: rotate(0de);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.second {
+    height: 450px;
+    width: 450px;
+    margin-left: 9%;
+    margin-top: 8%;
+    border-radius: 50%;
+    border-top: 20px solid gold;
+    border-right: 20px solid red;
+    border-bottom: 20px solid yellow;
+    border-left: 20px solid purple;
+    box-shadow: 1px 1px 10px 10px green, inset 1px 1px 10px 10px blue;
+    animation: scircle 2s linear infinite;
+}
+@keyframes scircle {
+    0%{
+        transform: rotate(720deg);
+    }
+   100%{
+        transform: rotate(0deg);
+    }
+}
